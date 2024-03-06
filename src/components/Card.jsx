@@ -23,7 +23,11 @@ export const Card = ({type,price,user,upp,support,domain,msr})=>{
                     <small className='s4'><Benefits val={domain} s=" Free Subdomain" /></small><br></br>
                     <small className='s5'><Benefits val= {msr} s=" Monthly Status Reports" /></small><br></br>
                 </div>
-                <button className="btn btn-primary" type="button">Button</button>
+                {/* <button className="btn btn-primary" type="button">Button</button>
+                 */}
+                <div class="d-grid col-6 mx-auto">
+                    <button class="btn btn-primary" type="button">Button</button>
+                </div>
             </div>
             </div>
         </>
