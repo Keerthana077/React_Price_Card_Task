@@ -25,8 +25,8 @@ export const Card = ({type,price,user,upp,support,domain,msr})=>{
                 </div>
                 {/* <button className="btn btn-primary" type="button">Button</button>
                  */}
-                <div class="d-grid col-6 mx-auto">
-                    <button class="btn btn-primary" type="button">Button</button>
+                <div className="d-grid col-6 mx-auto">
+                    <button className="btn btn-primary" type="button">Button</button>
                 </div>
             </div>
             </div>
